@@ -57,7 +57,7 @@ fprintf('Visualizing Gaussian fit.\n\n');
 [mu, sigma2] = estimateGaussian(X);
 
 %  Returns the density of the multivariate normal at each data point (row) 
-p = multivariateGaussian(X, mu, sigma2);
+ep = multivariateGaussian(X, mu, sigma2);
 
 %  Visualize the fit
 visualizeFit(X,  mu, sigma2);
